@@ -1,15 +1,37 @@
 import java.util.Scanner;
 public class Main {
-  public static void main(String[]args){
-    Scanner Inl = new Scanner(System.in);
-    System.out.print("Enter length:");
-    float l = Inl.nextFloat();
-    Scanner Inb = new Scanner(System.in);
-    System.out.print("Enter breadth:");
-    float b = Inb.nextFloat();
-    Inl.close();
-    Inb.close();
-    float a = l*b;
-    System.out.print("Area of rectangle with length "+l+" unit and breadth "+b+" unit is "+a+" unit².");
-  }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double l = 0;
+        while (true) {
+            try {
+                System.out.print("Length: ");
+                l = Double.parseDouble(scanner.nextLine());
+                if (l <= 0) {
+                    System.out.println("Please input a number > 0.");
+                    continue;
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+            }
+        }
+        double b = 0;
+        while (true) {
+            try {
+                System.out.print("Breadth: ");
+                b = Double.parseDouble(scanner.nextLine());
+                if (b <= 0) {
+                    System.out.println("Please input a number > 0.");
+                    continue;
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+            }
+        }
+        double area = l * b;
+        System.out.println("The area of a rectangle with length " + l + " units and breadth " + b + " units is " + area + " unit².");
+        scanner.close();
+    }
 }

@@ -1,11 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main() {
-  int l, b, a;
-  printf("Length: "); 
-  scanf("%d", &l);
-  printf("Breadth: "); 
-  scanf("%d", &b);
-  a = l * b;
-  printf("The area of a rectangle with length %d units and breadth %d units is %d unit².", l, b, a);
-  return 0;
+    double l, b;
+    while (1) {
+        printf("Length: ");
+        if (scanf("%lf", &l) != 1 || l <= 0) {
+            printf("Invalid input. Please enter a valid number greater than 0.\n");
+            while (getchar() != '\n');
+            continue;
+        }
+        break;
+    }
+    while (1) {
+        printf("Breadth: ");
+        if (scanf("%lf", &b) != 1 || b <= 0) {
+            printf("Invalid input. Please enter a valid number greater than 0.\n");
+            while (getchar() != '\n');
+            continue;
+        }
+        break;
+    }
+    double area = l * b;
+    printf("The area of a rectangle with length %.2f units and breadth %.2f units is %.2f unit².\n", l, b, area);
+    return 0;
 }

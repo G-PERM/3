@@ -1,13 +1,34 @@
-import java.util.Scanner
 fun main() {
-    val s = Scanner(System.`in`)
-    print("Length: ")
-    val l = s.nextFloat()
-    print("Breadth: ")
-    val b = s.nextFloat()
-    s.close()
-    val a = l*b
-    println("Area of rectangle with length $l unit and breadth $b unit is $a unit².")
+    var l: Double
+    while (true) {
+        try {
+            print("Length: ")
+            l = readLine()?.toDoubleOrNull() ?: throw NumberFormatException()
+            if (l <= 0) {
+                println("Please input a number > 0.")
+                continue
+            }
+            break
+        } catch (e: NumberFormatException) {
+            println("Invalid input. Please enter a valid number.")
+        }
+    }
+    var b: Double
+    while (true) {
+        try {
+            print("Breadth: ")
+            b = readLine()?.toDoubleOrNull() ?: throw NumberFormatException()
+            if (b <= 0) {
+                println("Please input a number > 0.")
+                continue
+            }
+            break
+        } catch (e: NumberFormatException) {
+            println("Invalid input. Please enter a valid number.")
+        }
+    }
+    val area = l * b
+    println("The area of a rectangle with length $l units and breadth $b units is $area unit².")
 }
 // Run by:
 // kotlinc Main.kt -include-runtime -d Main.jar
