@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gperm\\Documents\\CODING EXPRIMENTS\\3\\C#\\Main\\Main.csproj": {}
+    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gperm\\Documents\\CODING EXPRIMENTS\\3\\C#\\Main\\Main.csproj": {
+    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gperm\\Documents\\CODING EXPRIMENTS\\3\\C#\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "C:\\Users\\gperm\\Documents\\CODING EXPRIMENTS\\3\\C#\\Main\\Main.csproj",
-        "packagesPath": "C:\\Users\\gperm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gperm\\Documents\\CODING EXPRIMENTS\\3\\C#\\Main\\obj\\",
+        "projectPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\anita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gperm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anita\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
