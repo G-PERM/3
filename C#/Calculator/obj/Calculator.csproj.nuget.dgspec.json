@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj": {}
+    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj": {
+    "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj",
-        "projectName": "Main",
-        "projectPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Calculator\\Calculator.csproj",
+        "projectName": "Calculator",
+        "projectPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\anita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Main\\obj\\",
+        "outputPath": "C:\\Users\\anita\\Documents\\Coding Experiments\\3\\C#\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anita\\AppData\\Roaming\\NuGet\\NuGet.Config"
